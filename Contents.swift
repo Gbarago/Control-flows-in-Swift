@@ -75,11 +75,24 @@ for i in 1...10{
     
   ///  print("this is time table \(2*i)" )
     
-    for j in 1...10{
-    print("this is time table \(j*i)" )
+    for j in 1...food.count{
+  //  print("this is time table \(j*i)" )
      
     }
 }
 
 
 //while loops : thes loops are used when a conditon is true or fals
+var sum = 10
+while (sum < 15){
+    
+//print("tomatoes == are free")
+}
+
+
+//loops and collections
+
+var accountInfo : [String :Int] = ["John": 200, "Bill":9000, "Okwuchukwu" : 15000, "Tola": 300]
+for (user, balance) in accountInfo {
+    print("User: \(user), Balance: $\(balance)")
+}
