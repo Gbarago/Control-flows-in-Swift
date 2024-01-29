@@ -82,12 +82,7 @@ for i in 1...10{
 }
 
 
-//while loops : thes loops are used when a conditon is true or fals
-var sum = 10
-while (sum < 15){
-    
-//print("tomatoes == are free")
-}
+
 
 
 //loops and collections
@@ -96,3 +91,13 @@ var accountInfo : [String :Int] = ["John": 200, "Bill":9000, "Okwuchukwu" : 1500
 for (user, balance) in accountInfo {
     print("User: \(user), Balance: $\(balance)")
 }
+
+//while loops : thes loops are used when a conditon is true or fals
+var sum = 10
+while (sum < 15){
+    
+//print("tomatoes == are free")
+}
+
+
+
